@@ -1,9 +1,9 @@
 import  Chai from "./chai";
 function App() {
-
+  const username = "Ahmad Bin Abdul Jabbar"
   return (
     <>
-      <h1>Chai aur react with vite | Ahmad Bin Abdul Jabbar</h1>
+      <h1>Chai aur react with vite | {username}</h1>
       <Chai />
       <p> test the return </p>
     </>
